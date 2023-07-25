@@ -488,7 +488,8 @@ iframe{
 .gal_sec2{
     width: 100%;
     /* height: 800px; */
-    height: 3200px;
+    /* height: 3200px; */
+    height: inherit;
     background-color: orange;
     position: relative;
 
@@ -543,6 +544,10 @@ iframe{
 } */
 #gal_divvideo{
     display: flex;
+    
+}
+.photojs{
+    position: static;
 }
 div iframe {
     width: 100%;

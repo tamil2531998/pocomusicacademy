@@ -36,7 +36,7 @@ document.getElementById("imggallery").innerHTML=html;
 
 
 function arrayhtml(item){
-    html= html +  `<a href="  ${item} " target="_blank"> <img src=" ${item}" class="rounded-0" alt="..." style="width:480px ;hight:350px;padding:5px 0px;"></a>`;
+    html= html +  `<a href="  ${item} " target="_blank"> <img class="photojs" src=" ${item}" class="rounded-0" alt="..." style="width:480px ;hight:350px;padding:5px 0px;"></a>`;
    }
 
 // getImageGallery();
@@ -56,7 +56,7 @@ document.getElementById("gal_divvideo").innerHTML=videolink;
 
 function arrayvideo(item){
     videolink= videolink +  `
-    <div style="width:490px; hight:350px;padding:5px 10px;">
+    <div style="width:490px; hight:350px;padding:5px 10px; position: static;">
     <iframe width="680px" height="350px" src=${item[0]} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <h5  >${item[1]}</h5>
     <p class="videoprg">${item[2]}</p>
