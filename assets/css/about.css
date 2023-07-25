@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header starting path  */
+header{
+    /* position: fixed; */
+    top: 0;
+    left:0;
+    width: 100%; 
+    height: 70px;
+    padding: 20px 120px;
+    background-color: rgb(34, 98, 113);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    width: 150px;
+    height: 60px;
+}
+nav a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    width: 20px;
+    margin-left: 35px;
+   
+}
+nav a:hover{
+    color: rgb(90, 223, 90);
+}
+/* header end path */
